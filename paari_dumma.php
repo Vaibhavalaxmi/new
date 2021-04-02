@@ -3,11 +3,11 @@
 </head>
 <body>
 <?php
-$res=shell_exec("python disease_ten.py");
+$res=shell_exec("python hello.py");
 $states=explode("\n",$res);
 
 
-echo "$states[6]";
+echo "$states[0]";
 
 
 ?>
